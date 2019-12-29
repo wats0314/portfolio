@@ -16,5 +16,7 @@
 		color: yellow;
 		}
 		table {
-		background-image: URL(../download.jpg);
+        color: white;
+		background-image: URL(../images/bwca.jpg); 
+        background-size: width: 100%; height: 100%;
 		}
