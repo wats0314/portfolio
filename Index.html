@@ -7,9 +7,55 @@ Most Recent Revision:
 -->
 <html lang="en">
 <head>
-	<link rel="stylesheet"
-		type="text/css"
-		href="styles/teststyles.css"
+
+<link rel="stylesheet"
+	type="text/css"
+	href="styles/main.css"/>
+	
+	<style>
+		table, th, td {
+		border: thin black solid;
+		border-collapse: collapse;
+		padding: 5px 10px;
+		}
+		
+		table {
+		margin: auto;
+		width: 90%;
+		}
+		
+		tr {
+		height: 30px;
+		}
+		
+		tbody {
+		color: white;
+		font-weight: bold;
+		}
+		
+		thead {
+		background-color: lightgrey;
+		color: Black;
+		}
+		
+		tbody tr:nth-child(odd){
+		background-color: maroon;
+		}
+		
+		tbody tr:nth-child(even) {
+		background-color: darkblue;
+		}
+		
+		caption {
+		text-align: center;
+		font-weight: bold;
+		padding: 15px;
+		font-size: 20px;
+		}
+		
+		
+	</style>
+	
 
 </head>
 
@@ -20,11 +66,9 @@ Most Recent Revision:
 	</header>
 	
 	<nav class="border">
-		<hr style="border: thin red dotted"/>
 		<p><a href="projects.html" target="_blank">Projects</a></p>
 		<p><a href="contact.html" target="_blank">Contact Info</a></p>
 		<p><a href="testimonials.html" target="_blank">Testimonials</a></p>
-		<hr style="width: 50%; border: 2px solid blueviolet"/>
 	</nav>
 	
 	<section>
@@ -46,27 +90,31 @@ Most Recent Revision:
 			style="border: thick solid black; width: 200px;"/>
 			
 			<table border="1">
-				<caption>
-					<b>Employment History</b></caption>
-				<tr>
-					<th>Years of Employment</th>
-					<th>Title</th>
-					<th>Company</th>
-				</tr>
-				<tr>
-					<td>2019-Present</td>
-					<td>Parts Spec. Technician</td>
-					<td>Trinity3 Technology
-				</tr>
-				<tr>
-					<td>2019-2019</td>
-					<td>Lead QA & Repair Trainer</td>
-					<td>Trinity3 Technology</td>
-				</tr>
-				<tr>
-					<td>2017-2018</td>
-					<td>Repair Technician</td>
-					<td>Trinity3 Technology</td>
+				<caption>Employment History</caption>
+				<thead>	
+					<tr>
+						<th>Years of Employment</th>
+						<th>Title</th>
+						<th>Company</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>2019-Present</td>
+						<td>Parts Spec. Technician</td>
+						<td>Trinity3 Technology
+					</tr>
+					<tr>
+						<td>2019-2019</td>
+						<td>Lead QA & Repair Trainer</td>
+						<td>Trinity3 Technology</td>
+					</tr>
+					<tr>
+						<td>2017-2018</td>
+						<td>Repair Technician</td>
+						<td>Trinity3 Technology</td>
+					</tr>
+				</tbody>
 			</table>
 			
 				
@@ -78,6 +126,7 @@ Most Recent Revision:
 			alt="Mitch playing guitar."
 			style="border: thick solid black; height: 200px;"/>
 			
+	
 			<ul>
 				<li><b>Favorite Music Groups</b></li>
 					<ol>
@@ -105,7 +154,7 @@ Most Recent Revision:
 						<li>Snowboarding</li>
 						<li>Disc Golf</li>
 					</ul>
-			</ul>	
+			</ul>
 					
 					
 						
@@ -115,7 +164,6 @@ Most Recent Revision:
 	</section>
 		
 	<footer>
-		<hr />
 		<p>&copy; 2020 Mitch Watson. All rights resereved.</p>
 	</footer>
 		
