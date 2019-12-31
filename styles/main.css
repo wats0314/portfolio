@@ -4,9 +4,20 @@ Date Created: 12/26/2019
 Most Recent Revision:
 */
 		body {
+			border: thick solid maroon;
 			background-color: lightblue;
 			color: darkblue;
+			max-width: 900px;
+			margin: 0 auto;
 		}
+		
+			article img{
+				float:left;
+			}
+		
+			.clear-float {
+			clear:both;
+			}
 		
 		header, footer {
 			background-color: Maroon;
@@ -20,5 +31,30 @@ Most Recent Revision:
 		border-top: 3px dashed blue;
 		border-bottom: 3px dashed blue;
 		}
+		
+		.right-content {
+		float:left
+		}
+		
+		article {
+			margin-left: 20px;
+			margin-bottom: 15px;
+		}
+		
+		.leftmargin {
+			margin-left: 30px;
+		}
+		
+		
+		textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 12px 0;
+    box-sizing: border-box;
+    border: 2px solid #0d1f2d;
+    border-radius: 3px;
+    background-color: #fff;
+    resize: none;
 
 		
